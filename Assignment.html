@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+      <title>Feedback form</title>
+   <style>
+       body{
+       color:black;
+       font-size:21px;
+	 background-image:url("feedbackimg4.jpg");
+       background-size:cover;
+       }
+       label{
+	 color:green;
+       } 
+	 .heel{
+	 background-color:rgba(255,255,255,0.6);
+       width:800px;
+       }
+	 a:hover{
+	 color:green;
+	 }
+   </style>
+</head>
+<body>
+   <center>
+      <h1 style="color:white"><b>KONGU ENGINEERING COLLEGE</b></h1><hr><br>
+      <form class="heel"><br>
+      <h2 style="color:red">FEEDBACK FORM</h2>
+      First name :<input type="text" name="fname" placeholder="Enter your firstname"><br><br>
+      Second name :<input type="text" name="sname" placeholder="Enter your Secondname"><br><br>   
+      Roll no. :<input type="text" name="rollno" placeholder="Enter your Rollnumber"><br><br>  
+      Gender : 
+      <input type='radio' name='Gender' value='Male'><label>Male</label>
+      <input type='radio' name='Gender'value='Female'><label>Female</label> <br><br>
+      Department :<select>
+	<option value='MECH'>MECH</option>
+	<option value='ECE'>ECE</option>
+	<option value='CSE'>CSE</option>
+	<option value='EEE'>EEE</option>
+	<option value='IT'>IT</option>
+	<option value='CIVIL'>CIVIL</option>
+	<option value='AUTO'>AUTO</option>
+	<option value='E&I'>E&I</option>
+	<option value='MTS'>MTS</option>
+	<option value='FT'>FT</option>
+	</select><br><br>
+      Rate the session from scale of 1-5 :  
+      <input type='radio' name='rating' value='Very bad'><label>Very Bad</label>
+      <input type='radio' name='rating'value='Bad'><label>Bad</label>
+      <input type='radio' name='rating'value='Good'><label>Good</label> 
+      <input type='radio' name='rating'value='Vey Good'><label>Very Good</label>  
+      <input type='radio' name='rating'value='Excellent'><label>Excellent</label> <br><br>
+      Your review about the session :
+      <textarea id="review" name="review" rows="4" cols="50" placeholder="Your suggestions"></textarea><br><br>
+      <input type="submit" Value='SUBMIT'><br><br>
+	<footer align="left">For Queries : <a href="kongu.ac.in" target="_blank">kongu.ac.in</a></footer><br>
+	</form>
+   </center>
+</body>
+</html>
+
